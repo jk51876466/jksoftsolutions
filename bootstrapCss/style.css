@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Merriweather:wght@700;900&family=Ubuntu&display=swap");
+.landing-section{
+    background: white url("/images/banner.jpeg") no-repeat scroll center;
+    background-size:cover ;
+    height: 100vh;
+    color: black;
+    background-color: black;
+}
+.googlefont{
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color:white;
+}
+/*************************Image Height And Width Adjaustment*****************/
+.img-fluid{
+    width:254px;
+    height:152px;
+}
+
+.landing-wrapper{
+    background-color: rgba(0,0,0,0.5);
+    height:100%;
+}
+.intro-icon{
+    background-color: black;
+    color:#27ddde;
+    border-radius: 50%;
+    box-shadow: 0 0 3px black;
+}
+.gallery-img{
+    border-radius: 50px;
+    box-shadow: 0 0 10px black;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.gallery-img:hover{
+    transform: scale(1.05,1.05);
+}
+.btn{
+    border-radius: 50px;
+}
+.btn-outline-white:hover {
+
+    border:2px solid #27ddde !important;
+    color:#27ddde !important;
+    box-shadow: 0 0 10px #27ddde !important;
+
+}
+.trainer-img{
+    margin-top: -50px;
+    box-shadow: 0 0 10px black;
+}
+.trainer-card{
+    border: 15px !important;
+    transition: all 0.5s;
+}
+.trainer-card:hover{
+transform: translateY(-20px);
+
+}
