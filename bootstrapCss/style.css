@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Merriweather:wght@700;900&family=Ubuntu&display=swap");
 .landing-section{
-    background: white url("/images/banner.jpeg") no-repeat scroll center;
+    background: white url("/images/banner.jpg") no-repeat scroll center;
     background-size:cover ;
     height: 100vh;
     color: black;
